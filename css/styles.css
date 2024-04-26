@@ -60,7 +60,9 @@ code{
   font-style: normal;
 	  font-size: 1rem;
 }
-
+/* videos */
+iframe{
+	width:75%;}
 
 /*figure caption*/
 
