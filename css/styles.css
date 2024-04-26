@@ -41,8 +41,6 @@ font-family: "Lato", sans-serif;
  font-size: 1.2rem;
 }
 
-
-
 p, li{
   font-family: "Karla", sans-serif;
   font-weight: 300;
@@ -63,6 +61,7 @@ code{
 	  font-size: 1rem;
 }
 
+
 /*figure caption*/
 
 .figure-caption {
@@ -70,6 +69,8 @@ font-family: 'Karla', sans-serif;
 }
 
 /*links*/
+.script{
+	font-size:.85rem;}
 a{
 	text-decoration: none;
 }
