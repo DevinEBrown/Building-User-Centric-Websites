@@ -74,19 +74,64 @@
   </div>
   <div class="tab-pane fade" id="nav-three" role="tabpanel" aria-labelledby="nav-three-tab" tabindex="0">
     <h2> Creating Accessible Websites</h2>
-    <p><b>Alternative Text for Images: </b>Provide descriptive <code>alt text</code> for images so that users with visual impairments can understand the content of the image. <code>alt text</code> should be concise and descriptive, conveying the purpose or information conveyed by the image.</p>
-    <p><code><img src="" alt="img of "></code></p>
+    <h3>Alternative Text for Image</h3>
+    <p>Provide descriptive <code>alt text</code> for images so that users with visual impairments can understand the content of the image. <code>alt text</code> should be concise and descriptive, conveying the purpose or information conveyed by the image.</p>
+    <p><code>&lt;img src="" alt="img of ..."&gt;</code></p>
+
+    <h3>Keyboard Navigation</h3>
+    <p>Ensure that all functionality of the website can be accessed and operated using a keyboard alone, without requiring a mouse. This is essential for users who cannot use a mouse, including those with mobility impairments.</p>
+    <h4>Tab Navigation</h4>
+    <p>Pressing the Tab key allows you to navigate through interactive elements on the page, such as links, buttons, and form fields. Each element should receive focus in a logical order, ensuring a smooth and intuitive navigation experience.</p>
+  <h4>Dropdown Menus</h4>
+    <p>When you encounter a dropdown menu, pressing the Tab key should allow you to open the menu and navigate its options using the arrow keys. You should also be able to close the menu using the Escape key.</p>
+  <h4>Interactive Maps</h4>
+<p>If the website includes an interactive map, you should be able to navigate and interact with it using only your keyboard. The map should be accessible and allow you to zoom in and out, pan, and select locations.</p>
+<h4>Form Fields</h4>
+<p>When filling out a form, you should be able to navigate between form fields using the Tab key. Required fields should be clearly indicated, and error messages should be displayed in a way that is accessible to keyboard users.</p>
+  <h4>Modal Windows</h4>
+<p>If a modal window (such as a popup dialog) appears on the page, you should be able to interact with it using only your keyboard. Pressing the Tab key should allow you to navigate through the modal's elements, and pressing the Escape key should close the modal.</p>
+ <h4>Skip Links</h4>
+<p>The website should include a "Skip to main content" link at the top of the page that allows you to bypass repetitive navigation links and go directly to the main content area. This helps users who navigate using a keyboard to quickly access the content they are interested in.</p>
+
+<h3>Color Contrast</h3>
+<p>Use sufficient color contrast between text and background colors to ensure readability for users with low vision or color blindness. Tools like color contrast checkers can help you determine if your color choices meet accessibility standards.</p>
+<p><a href="../mod4/lesson.html" target="_blank"> Review Module 4: Color Theroy<i class="fa-solid fa-arrow-right"></i></a></p>
+<p><a href="https://www.digitala11y.com/color-contrast-analyzers-checkers/" target="_blank"> Tools to Evaluate your design for Color contrast Accessibility<i class="fa-solid fa-arrow-right"></i></a></p>
+    
+<h3>Accessible Forms</h3>
+<p>Ensure that all form elements (e.g., input fields, checkboxes, radio buttons) are properly labeled and accessible to screen readers. Provide clear instructions and error messages for form validation.</p>
+    <h3>Video and Audio Accessibility</h3>
+  <p> Provide captions for videos and transcripts for audio content to make them accessible to users who are deaf or hard of hearing. Provide controls for users to adjust volume and playback speed.</p>
+<h3>Accessible Tables</h3>
+   <p>Use proper table markup (<code>&lt;tablegt;</code>, <code>&lt;thgt;</code>, <code>&lt;tdgt;</code>) and provide table headers (<code>&lt;thgt;</code>) to make tables accessible to screen readers. Avoid using tables for layout purposes.</p>
+
+<h3>Focus Styles</h3>
+    <p>Ensure that interactive elements (like links and buttons) have a visible focus indicator when they are in focus. This helps users who navigate using a keyboard or assistive technology see where they are on the page.</p>
+
+    <h2>Demonstration of Accessibility Tools</h2>
+<h3>Screen Readers</h3>
+<p>Demonstrate how a screen reader (such as <a href="https://www.nvaccess.org/download/" target="_blank">NVDA</a>, <a href="https://support.apple.com/guide/voiceover/welcome/mac" target="_blank">VoiceOver</a>, or <a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank">JAWS</a>) reads aloud the content of a webpage and how users can navigate through the page using keyboard shortcuts.</p>
+
+  <h3>Accessibility Validators</h3>
+<p>Introduce tools like <a href="https://wave.webaim.org/" target="_blank">WAVE</a> (Web Accessibility Evaluation Tool) or <a href="https://www.deque.com/axe/" target="_blank">Axe</a> that can automatically scan a webpage for accessibility issues and provide suggestions for improvement.</p>
+
+    <p>By following these best practices and using accessibility tools, developers can create websites that are more inclusive and accessible to all users, including those with disabilities.</p>
     
   </div>
 </div>
 
 
      <h3 class="h4">Resources</h3>
-<p><i class="fa-brands fa-youtube"></i><a href="https://youtu.be/hufMi9LZX2I?si=Wc7lKa_9m-DCSKZS" target="_blank"> What is Web Accessibility in 60 seconds!(1:46)</a><br>
-</p>
-  <p><i class="fa-solid fa-book-open"></i><a href="https://youtu.be/hufMi9LZX2I?si=Wc7lKa_9m-DCSKZS" target="_blank"> Introduction to Web Accessibility</a><br>
+<p><i class="fa-brands fa-youtube"></i><a href="https://youtu.be/hufMi9LZX2I?si=Wc7lKa_9m-DCSKZS" target="_blank"> What is Web Accessibility in 60 seconds!</a> (1:46)<br>
+  <i>Women Techmakers</i></p>
+<p><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/watch?v=it3xiV46-U4" target="_blank"> The POUR Principles of Content Creation</a> (6:00)<br>
+  <i>Finalsite</i></p>
+  <p><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/watch?v=IuPrfsbfLMM" target="_blank"> Web Accessibility Standards</a> (6:12)<br>
+  <i>Finalsite</i></p>
+  <p><i class="fa-solid fa-book-open"></i><a href="https://www.w3.org/WAI/fundamentals/accessibility-intro/" target="_blank"> Introduction to Web Accessibility</a><br>
   <i>W3C Web Accessibility Initiative (WAI)</i></p>
-      
+  <p><i class="fa-solid fa-book-open"></i><a href="" target="_blank">Constructing a POUR Website</a><br>
+  <i>WebAIM</i></p>
       
 <!-- Creative Commons -->
 <p xmlns:cc="http://creativecommons.org/ns#"><i class="fa-brands fa-creative-commons-nd"></i> This work is licensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"></a></p>
