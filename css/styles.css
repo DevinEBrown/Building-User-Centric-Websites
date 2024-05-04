@@ -62,8 +62,8 @@ code{
 }
 /* videos */
 iframe{
-	max-width: 100%;
-  height: auto;
+	width: 600px;
+  height: 400px;
 
 }
  
